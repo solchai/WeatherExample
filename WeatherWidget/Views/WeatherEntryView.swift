@@ -30,7 +30,7 @@ struct WeatherEntryView: View {
                 }
                 HStack {
                     WeatherView(weather: entry.weatherInfo[0], updatedDate: entry.date)
-                    //WeatherView(weather: entry.weatherInfo[1], updatedDate: entry.date)
+                    WeatherView(weather: entry.weatherInfo[1], updatedDate: entry.date)
                         .foregroundColor(.white)
                 }
             }.edgesIgnoringSafeArea(.all)

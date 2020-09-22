@@ -23,7 +23,7 @@ struct WeatherView: View {
                 Spacer()
                 Text("Updated: \(updatedDate.timeOnly())")
                     .font(.system(size: 12))
-                    .foregroundColor(Color.gray.opacity(1))
+                    .foregroundColor(Color.black.opacity(1))
             }
         }.padding()
     }
